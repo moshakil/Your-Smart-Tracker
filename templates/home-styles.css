@@ -1,0 +1,92 @@
+/* Reset some default styles and apply a basic font */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header with a background color, text color, and padding */
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the navigation menu with a background color and list styles */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the main content area with padding and a light background */
+main {
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+/* Style the feature sections with a flex layout and some padding */
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.feature img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+/* Style the call-to-action buttons with a background color, text color, and padding */
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Style the footer with a background color, padding, and text color */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Style the social media icons */
+#social-media ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#social-media ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#social-media ul li a img {
+    width: 30px;
+    height: 30px;
+}
