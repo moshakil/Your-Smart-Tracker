@@ -3,16 +3,16 @@ from pymongo import MongoClient
 
 app = Flask(__name__)
 
-# Your MongoDB URI (replace <password> with your actual MongoDB password)
+# MongoDB URI 
 mongo_uri = "mongodb+srv://shakil:<Shakil12>@cluster0.sjvbflf.mongodb.net/?retryWrites=true&w=majority"
 
 # Create a MongoClient instance
 mongo_client = MongoClient(mongo_uri)
 
-# Access your MongoDB database (replace 'your_database_name' with your actual database name)
+# Access MongoDB database 
 db = mongo_client.Cluster0
 
-# Define your MongoDB collections
+# Define MongoDB collections
 users_collection = db.users
 vehicles_collection = db.vehicles
 
